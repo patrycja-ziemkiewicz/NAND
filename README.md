@@ -199,10 +199,4 @@ Files with the library implementation should be linked with the following option
 - The implementation of this library can be found in the `nand.c` file.
 - Check the `nand_example.c` file for detailed usage examples and further specifications.
 
-## Testing
-To run example tests:
-```bash
-export LD_LIBRARY_PATH=./
-make
-./test.sh
-make clean
+
